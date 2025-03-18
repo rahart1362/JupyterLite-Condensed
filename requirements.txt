@@ -1,0 +1,35 @@
+# JupyterLite Core
+jupyterlite==0.6.0a2
+jupyterlite-core==0.6.0a2
+jupyterlite-pyodide-kernel==0.6.0a2
+jupyterlite-javascript-kernel==0.4.0a0
+
+# Jupyter & JupyterLab infrastructure
+jupyterlab
+notebook
+ipython
+traitlets
+tornado
+pyyaml
+requests
+jupyter_packaging
+setuptools  ## Avoiding setuptools download if possible
+wheel
+pip
+
+# Pyodide-compatible packages
+pandas
+numpy
+bqplot
+plotly
+beautifulsoup4
+openpyxl
+matplotlib
+pyarrow
+scikit-learn
+scipy
+tabulate
+seaborn
+thefuzz
+sqlite-utils
+pymysql

@@ -1,0 +1,205 @@
+{
+  "jupyter-config-data": {
+    "appName": "JupyterLite",
+    "appUrl": "./lab",
+    "appVersion": "0.6.0-alpha.2",
+    "baseUrl": "./",
+    "defaultKernelName": "python",
+    "faviconUrl": "./lab/favicon.ico",
+    "federated_extensions": [
+      "@jupyter-widgets/jupyterlab-manager",
+      "bqplot",
+      "plotlywidget",
+      "jupyterlab-theme-materialui",
+      "jupyterlab-theme-jupyterlab-darker",
+      "jupyterlab-theme-jupyterlab-night",
+      "jupyterlab-theme-nord",
+      "jupyterlab-theme-one-dark-pro",
+      "jupyterlab-theme-solarized-dark",
+      "jupyterlab-theme-solarized-light"
+    ],
+    "kernelSpecs": {
+      "python": {
+        "name": "python",
+        "language": "python",
+        "display_name": "Python (Pyodide)"
+      },
+      "javascript": {
+        "name": "javascript",
+        "language": "javascript",
+        "display_name": "JavaScript"
+      }
+    },
+    "pyodide": {
+      "packages": [
+        "pandas",
+        "numpy",
+        "bqplot",
+        "plotly",
+        "beautifulsoup4",
+        "openpyxl",
+        "matplotlib",
+        "pyarrow",
+        "scikit-learn",
+        "scipy",
+        "tabulate",
+        "seaborn",
+        "thefuzz",
+        "sqlite-utils",
+        "pymysql",
+        "sqlite3"
+      ]
+    },
+    "fileTypes": {
+      "csv": {
+        "extensions": [".csv"],
+        "fileFormat": "text",
+        "mimeTypes": ["text/csv"],
+        "name": "csv"
+      },
+      "ipynb": {
+        "extensions": [".ipynb"],
+        "fileFormat": "json",
+        "mimeTypes": ["application/x-ipynb+json"],
+        "name": "ipynb"
+      },
+      "py": {
+        "extensions": [".py"],
+        "fileFormat": "text",
+        "mimeTypes": [
+          "text/x-python",
+          "application/x-python-code"
+        ],
+        "name": "py"
+      },
+      "js": {
+        "extensions": [".js", ".mjs"],
+        "fileFormat": "text",
+        "mimeTypes": ["application/javascript"],
+        "name": "js"
+      },
+      "json": {
+        "extensions": [".json"],
+        "fileFormat": "json",
+        "mimeTypes": ["application/json"],
+        "name": "json"
+      },
+      "md": {
+        "extensions": [".md", ".markdown"],
+        "fileFormat": "text",
+        "mimeTypes": ["text/markdown"],
+        "name": "md"
+      },
+      "html": {
+        "extensions": [".html"],
+        "fileFormat": "text",
+        "mimeTypes": ["text/html"],
+        "name": "html"
+      },
+      "xml": {
+        "extensions": [".xml"],
+        "fileFormat": "text",
+        "mimeTypes": ["application/xml"],
+        "name": "xml"
+      },
+      "yaml": {
+        "extensions": [".yaml", ".yml"],
+        "fileFormat": "text",
+        "mimeTypes": ["application/x-yaml"],
+        "name": "yaml"
+      },
+      "gzip": {
+        "extensions": [".tgz", ".gz", ".gzip"],
+        "fileFormat": "base64",
+        "mimeTypes": ["application/gzip"],
+        "name": "gzip"
+      },
+      "pdf": {
+        "extensions": [".pdf"],
+        "fileFormat": "base64",
+        "mimeTypes": ["application/pdf"],
+        "name": "pdf"
+      },
+      "png": {
+        "extensions": [".png"],
+        "fileFormat": "base64",
+        "mimeTypes": ["image/png"],
+        "name": "png"
+      },
+      "jpeg": {
+        "extensions": [".jpeg", ".jpg"],
+        "fileFormat": "base64",
+        "mimeTypes": ["image/jpeg"],
+        "name": "jpeg"
+      },
+      "svg": {
+        "extensions": [".svg"],
+        "fileFormat": "text",
+        "mimeTypes": ["image/svg+xml"],
+        "name": "svg"
+      },
+      "ico": {
+        "extensions": [".ico"],
+        "fileFormat": "base64",
+        "mimeTypes": ["image/x-icon"],
+        "name": "ico"
+      },
+      "wasm": {
+        "extensions": [".wasm"],
+        "fileFormat": "base64",
+        "mimeTypes": ["application/wasm"],
+        "name": "wasm"
+      },
+      "wheel": {
+        "extensions": [".whl"],
+        "fileFormat": "base64",
+        "mimeTypes": ["application/x-wheel+zip"],
+        "name": "wheel"
+      },
+      "toml": {
+        "extensions": [".toml"],
+        "fileFormat": "text",
+        "mimeTypes": ["application/toml"],
+        "name": "toml"
+      },
+      "plain": {
+        "extensions": [".txt"],
+        "fileFormat": "text",
+        "mimeTypes": ["text/plain"],
+        "name": "plain"
+      },
+      "jsmap": {
+        "extensions": [".map"],
+        "fileFormat": "json",
+        "mimeTypes": ["application/json"],
+        "name": "jsmap"
+      }
+    },
+    "fullLabextensionsUrl": "./extensions",
+    "fullStaticUrl": "./build",
+    "licensesUrl": "./lab/api/licenses"
+  },
+  "jupyterlite-schema-version": 0,
+  "jupyterlite": {
+    "litePlugins": [
+      "@jupyterlite/plugin-pyodide-kernel",
+      "@jupyterlite/plugin-javascript-kernel",
+      "@jupyterlite/plugin-files",
+      "@jupyterlite/plugin-notebook",
+      "@jupyterlite/plugin-console",
+      "@jupyterlite/plugin-terminal",
+      "@jupyterlite/plugin-settings",
+      "@jupyterlite/plugin-statusbar",
+      "@jupyterlite/plugin-contents",
+      "@jupyterlite/plugin-ui-components"
+    ],
+    "extensions": [
+      "jupyterlite-pyodide-kernel",
+      "jupyterlite-javascript-kernel"
+    ]
+  },
+  "files": {
+    "ignore": ["User-Content/.ipynb_checkpoints"]
+  },
+  "output": "docs"
+}

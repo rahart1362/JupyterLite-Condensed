@@ -1,0 +1,30 @@
+# environment.yml 
+name: jupyterlite-env
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlite==0.6.0a2
+  - pyodide-kernel
+  - jupyterlab-javascript-kernel
+  - pandas
+  - numpy
+  - bqplot
+  - plotly
+  - beautifulsoup4
+  - openpyxl
+  - matplotlib
+  - pyarrow
+  - scikit-learn
+  - scipy
+  - tabulate
+  - seaborn
+  - thefuzz
+  - sqlite-utils
+  - pymysql # If this is a noarch wheel, otherwise it is not compatible with Pyodide
+  - jupyterlab-theme-materialui
+  - jupyterlab-theme-jupyterlab-darker
+  - jupyterlab-theme-jupyterlab-night
+  - jupyterlab-theme-nord
+  - jupyterlab-theme-one-dark-pro
+  - jupyterlab-theme-solarized-dark
+  - jupyterlab-theme-solarized-light
